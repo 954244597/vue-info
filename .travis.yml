@@ -11,5 +11,5 @@ script:
   - npm run build
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker build -t 954244597/cwm-info:latest .
-  - docker push pea3nut/pea3nut-info:latest
+  - docker push 954244597/cwm-info:latest
 
